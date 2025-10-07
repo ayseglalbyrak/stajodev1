@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>aysal.com.tr</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <h1>Hoş Geldiniz</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Ana Sayfa</a>
+    <a href="#">Cilt Bakımı</a>
+    <a href="#">Saç Bakımı</a>
+    <a href="#">Tırnak Bakımı</a>
+    <a href="https://www.w3schools.com/" target="_blank ">Markamız</a>
+    <a href="https://www.w3schools.com/" target="_blank">Bizimle İletişime Geçin</a>
+    
+  </nav>
+
+  <main>
+    <div class="top-section">
+      <!-- Resimler ve alt paragraf -->
+      <div class="left-section">
+      <div class="image-grid">
+          <img src="images/sac.webp" alt="Resim 1">
+          <img src="images/tırnak.jpeg" alt="Resim 2">
+          <img src="images/bakım.jpg" alt="Resim 3">
+          <img src="images/cilt.jpg" alt="Resim 4">
+        </div>
+        <p class="bottom-text">Aysal, güzelliği bir bütün olarak ele alan doğal bakım markasıdır.
+           Cilt, saç ve tırnaklar için özel olarak geliştirilen ürünlerimiz;
+            saf içerikleri, etkili formülleri ve güvenilir üretim anlayışıyla
+             öne çıkar. Amacımız sadece sağlıklı bir cilt değil, güçlü saçlar
+             ve bakımlı tırnaklarla baştan sona ışıldayan bir görünüm sunmak.
+             Aysal ile doğadan gelen güzelliği keşfedin, kendinizi her gün daha iyi hissedin.</p>
+      </div>
+
+      <!-- Form -->
+      <div class="form-box">
+        <h2>Kayıt Ol</h2>
+        <form name="registerForm">
+          <label>Ad:</label>
+          <input type="text" name="ad" maxlength="20" required>
+
+          <label>Soyad:</label>
+          <input type="text" name="soyad" maxlength="20" required>
+
+          <label>E-posta:</label>
+          <input type="email" name="email" required>
+
+          <label>Kullanıcı Adı:</label>
+          <input type="text" name="kullanici" required>
+
+          <label>Şifre:</label>
+          <input type="password" name="sifre" required>
+
+          <label>Ürün Kategorisi:</label>
+          <select name="ürün" required>
+            <option value="">Seçiniz...</option>
+            <option>Cilt Bakım</option>
+            <option>Saç Bakım</option>
+            <option>Tırnak Bakım</option>
+          </select>
+          <label>Cinsiyet:</label>
+         <div class="radio-group">
+         <label>
+         <input type="radio" name="cinsiyet" value="Bay" required> Bay
+         </label>
+         <label>
+         <input type="radio" name="cinsiyet" value="Bayan"> Bayan
+         </label>
+         </div>
+          <div class="form-buttons">
+            <button type="reset">Temizle</button>
+            <button type="submit">Gönder</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>  <footer>
+    <p>Telif &copy; 2025</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
